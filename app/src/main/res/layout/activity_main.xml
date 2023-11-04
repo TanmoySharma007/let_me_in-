@@ -30,14 +30,6 @@
         app:layout_constraintStart_toStartOf="@id/WelcomeTv"
         app:layout_constraintTop_toBottomOf="@id/WelcomeTv" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200sp"
-        android:layout_height="250sp"
-        android:src="@drawable/tie"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/NameTv" />
 
 
     <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
